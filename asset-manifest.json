@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/artists-app/static/css/main.58fee255.css",
+    "main.js": "/artists-app/static/js/main.307e978a.js",
+    "static/js/787.54f061e9.chunk.js": "/artists-app/static/js/787.54f061e9.chunk.js",
+    "index.html": "/artists-app/index.html",
+    "main.58fee255.css.map": "/artists-app/static/css/main.58fee255.css.map",
+    "main.307e978a.js.map": "/artists-app/static/js/main.307e978a.js.map",
+    "787.54f061e9.chunk.js.map": "/artists-app/static/js/787.54f061e9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.58fee255.css",
+    "static/js/main.307e978a.js"
+  ]
+}
