@@ -1,0 +1,32 @@
+.containerCards {
+  display: flex;
+  flex-wrap: wrap;
+}
+.containerCard {
+  cursor: pointer;
+  margin: 10px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cardImage {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+.cardName {
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  font-size: 12px;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.cardName:hover {
+  font-size: 16px;
+  transition: 0.5s;
+}

@@ -1,0 +1,27 @@
+.containerNotFound {
+  width: 100%;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.btnNotFound {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 30px;
+  width: 300px;
+  height: 100px;
+  background-color: rgba(0, 0, 0, 0.15);
+  border: 0.175rem solid #fff;
+  border-radius: 50px;
+}
+.btnNotFound:hover {
+  color: #212121;
+  background-color: #ffff;
+  transition: 0.5s;
+}

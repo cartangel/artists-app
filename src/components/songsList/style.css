@@ -1,0 +1,32 @@
+.containerSongsList {
+  width: calc(100% - 60px);
+  padding: 25px;
+  background: #000000;
+}
+.titleSongsList {
+  font-size: 20px;
+}
+.songList {
+  padding: 25px 0;
+}
+.itemSongList {
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  display: flex;
+  border-bottom: 1px solid #363636;
+  padding: 10px 5px;
+}
+.itemSongList:hover {
+  background: #292929;
+  cursor: pointer;
+}
+.itemSongListInfo {
+  display: flex;
+}
+.itemSongListIndex,
+.itemSongListName,
+.itemSongListTime {
+  margin: 0 5px;
+  font-size: 12px;
+}

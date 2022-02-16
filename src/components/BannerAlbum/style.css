@@ -1,0 +1,26 @@
+.bannerAlbum {
+  padding: 30px;
+  width: calc(100% - 60px);
+  background: #292929;
+  display: flex;
+  align-items: center;
+}
+.bannerImageAlbum {
+  width: 150px;
+  height: 150px;
+  margin-right: 20px;
+}
+.bannerNameAlbum {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.bannerLabelAlbum {
+  color: #bebebe;
+  font-size: 12px;
+  font-weight: 500;
+}
+.bannerNumberSong {
+  color: #bebebe;
+  font-size: 12px;
+  font-weight: 500;
+}
