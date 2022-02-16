@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Routes, Route, HashRouter } from "react-router-dom";
 import LayoutMain from "../Layouts/LayoutMain";
 import Albums from "../containers/Albums";
 import Songs from "../containers/Songs";
@@ -9,7 +9,7 @@ import PlaySongs from "../containers/PlaySongs";
 
 export default function Router() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path="/" element={<LayoutMain />}>
           <Route
@@ -23,6 +23,6 @@ export default function Router() {
           <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
