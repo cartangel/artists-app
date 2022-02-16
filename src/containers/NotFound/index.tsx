@@ -4,7 +4,7 @@ export default function NotFound() {
   return (
     <div className="containerNotFound">
       <a href="/" className="btnNotFound">
-        vuelve al home
+        vuelve al Inicio
       </a>
     </div>
   );
